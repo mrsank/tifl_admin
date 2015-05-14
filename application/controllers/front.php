@@ -50,7 +50,17 @@ class Front extends CI_Controller {
 		$this->load->view('front/footer');
 	}
 	
+	public function courses(){
+		$data['panel'] = "course";
+		$data['base'] = base_url();
+		$data['lang'] = $this->Front_model->languages();
+		$this->load->view('front/header',$data);
+		$this->load->view('front/course');
+		$this->load->view('front/footer');
+	}
+	
 	public function contactus(){
+		
 		$data['panel'] = "contact";
 		$data['base'] = base_url();
 		$this->load->view('front/header',$data);
