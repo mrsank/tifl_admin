@@ -48,5 +48,7 @@
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 	<script src="<?php echo $base;?>assets/js/jquery.cslider.js"></script>
 	<script src="<?php echo $base;?>assets/js/custom.js"></script>
+	<script src="<?php echo $base;?>assets/js/jquery.isotope.min.js"></script>
+	<script src="<?php echo $base;?>assets/js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
 </body>
 </html>

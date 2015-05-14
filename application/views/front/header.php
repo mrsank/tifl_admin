@@ -12,7 +12,9 @@
 	<link rel="stylesheet" href="<?php echo $base;?>assets/css/font-awesome.min.css">
 	<!-- Custom styles for our template -->
 	<link rel="stylesheet" href="<?php echo $base;?>assets/css/bootstrap-theme.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/da-slider.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo $base;?>assets/css/da-slider.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo $base; ?>assets/css/isotope.css" media="screen" />
+	<link rel="stylesheet" href="<?php echo $base;?>assets/js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php echo $base;?>assets/css/style.css">
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -35,11 +37,9 @@
 					<li <?php if($panel=="index") { ?>class="active"<?php } ?>><a href="<?php echo $base;?>index.php/front/">Home</a></li>
 					<li <?php if($panel=="about") { ?>class="active"<?php } ?>><a href="<?php echo $base;?>index.php/front/aboutus">About Us</a></li>
 					<li <?php if($panel=="achieve") { ?>class="active"<?php } ?>><a href="<?php echo $base;?>index.php/front/achievements">Our Achievements</a></li>
-					<li><a href="#">Courses</a></li>
-					<li><a href="#">Results</a></li>
-					<li><a href="#">Time Table</a></li>
-					<li <?php if($panel=="germany") { ?>class="active"<?php } ?>><a href="<?php echo $base;?>index.php/front/germany">Why German?</a></li>
-					<li <?php if($panel=="gruppe") { ?>class="active"<?php } ?>><a href="<?php echo $base;?>index.php/front/gruppe">Gruppe Deutsch</a></li>
+					<li <?php if($panel=="course") { ?>class="active"<?php } ?>><a href="<?php echo $base;?>index.php/front/courses">Courses</a></li>
+					<li><a href="#">Testimonials</a></li>
+					<li><a href="#">Portfolio</a></li>
 					<li <?php if($panel=="contact") { ?>class="active"<?php } ?>><a href="<?php echo $base;?>index.php/front/contactus">Contact</a></li>
 
 				</ul>
