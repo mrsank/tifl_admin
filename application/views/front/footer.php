@@ -18,12 +18,13 @@
 					<div class="col-md-6 panel">
 						<div class="panel-body">
 							<p class="simplenav">
-								<a href="index.html">Home</a> | 
-								<a href="about.html">About</a> |
-								<a href="courses.html">Courses</a> |
-								<a href="fees.html">Fees</a> |
-								<a href="portfolio.html">Portfolio</a> |
-								<a href="contact.html">Contact</a>
+								<a href="<?php echo $base;?>index.php/front">Home</a> | 
+								<a href="<?php echo $base;?>index.php/front/aboutus">About</a> |
+								<a href="<?php echo $base;?>index.php/front/achievements">Our Achievements</a> |
+								<a href="<?php echo $base;?>index.php/front/courses">Courses</a> |
+								<a href="#">Testimonials</a> |
+								<a href="#">Portfolio</a> |
+								<a href="<?php echo $base;?>index.php/front/contactus">Contact</a>
 							</p>
 						</div>
 					</div>
@@ -31,7 +32,7 @@
 					<div class="col-md-6 panel">
 						<div class="panel-body">
 							<p class="text-right">
-								Copyright &copy; 2014. Template by <a href="http://webthemez.com/" rel="develop">WebThemez.com</a>
+								Copyright &copy; <?php echo date("Y");?> <a href="http://www.translinguaindia.com/" rel="develop">TranslinguagIndia.</a> All right reserved.
 							</p>
 						</div>
 					</div>
