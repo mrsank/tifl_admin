@@ -46,31 +46,21 @@
 					</div>
 					<div class="col-md-6">
 						<div class="row">
+						<?php foreach($ctype->result() as $cdata){ ?>
 							<div class="col-md-6">
-								<h3 class="section-title">Main Office</h3>
-								T.C. 24/1634, 
-								Suraj, Mera Nagar - 139, 
-								Near Mettukada LPS,
-								Trivandrum:695014
+								<h3 class="section-title"><?php echo $cdata->center_type;?></h3>
+								<?php $cdetails = $this->Front_model->cdetails($cdata->id); 
+								foreach($cdetails->result() as $data){
+								?>
+								<p><?php echo $data->address; ?></p>
+								<?php } ?>
 							</div>
-							<div class="col-md-6">
-								<h3 class="section-title">Brach Address</h3>
-								44/1238, Ist & IInd Floor, 
-								Anand Towers,Near Mathrubhumi, 
-								Kaloor, Kochi – 682017
-							</div>
-							<div class="col-md-6">
-								<h3 class="section-title">Regd. Office</h3>
-								Vasantha Bhavan,
-								Opp. LPS Kannanmoola,
-								Kannanmoola, M.C.P.O,
-								Trivandrum – 695011
-							</div>
-						</div><br><br>
+							<?php } ?>
+						</div>
 						<h3 class="section-title">Get connected</h3>
 						<p>
 						D.V.ARUN KUMAR<br>
-						CEO & FOUNDER<br>
+						<strong>CEO & FOUNDER</strong><br>
 						Email: arun@translinguaindia.com, translinguaindia@yahoo.co.in<br>
 						Mobile No. : 94471 54579, 93881 54579<br>
 						Phone : 0471 3227211 
