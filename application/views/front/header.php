@@ -34,7 +34,7 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
-					<li <?php if($panel=="index") { ?>class="active"<?php } ?>><a href="<?php echo $base;?>index.php/front/">Home</a></li>
+					<li <?php if($panel=="index") { ?>class="active"<?php } ?>><a href="<?php echo $base;?>index.php/front/index">Home</a></li>
 					<li <?php if($panel=="about") { ?>class="active"<?php } ?>><a href="<?php echo $base;?>index.php/front/aboutus">About Us</a></li>
 					<li <?php if($panel=="achieve") { ?>class="active"<?php } ?>><a href="<?php echo $base;?>index.php/front/achievements">Our Achievements</a></li>
 					<li <?php if($panel=="course") { ?>class="active"<?php } ?>><a href="<?php echo $base;?>index.php/front/courses">Courses</a></li>
