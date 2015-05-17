@@ -59,10 +59,31 @@ class Front extends CI_Controller {
 		$this->load->view('front/footer');
 	}
 	
+	public function eamount(){
+		$data['panel'] = "eamount";
+		$data['base'] = base_url();
+		$data['etype'] = $this->Front_model->etype();
+		//$data['lang'] = $this->Front_model->languages();
+		$this->load->view('front/header',$data);
+		$this->load->view('front/eamount');
+		$this->load->view('front/footer');
+	}
+	
+	public function edate(){
+		$data['panel'] = "edate";
+		$data['base'] = base_url();
+		$data['ecenter'] = $this->Front_model->ecenter();
+		//$data['lang'] = $this->Front_model->languages();
+		$this->load->view('front/header',$data);
+		$this->load->view('front/edate');
+		$this->load->view('front/footer');
+	}
+	
 	public function contactus(){
 		
 		$data['panel'] = "contact";
 		$data['base'] = base_url();
+		$data['ctype'] = $this->Front_model->ctype();
 		$this->load->view('front/header',$data);
 		$this->load->view('front/contact');
 		$this->load->view('front/footer');
