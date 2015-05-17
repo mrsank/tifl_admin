@@ -52,8 +52,8 @@
         <div class="col-md-4"><div class="title-box clearfix "><h2 class="title-box_primary">Exam Details and Price</h2></div> 
         <p><span>The international examinations for A1, A2, B1 as well as B2 are conducted at GOETHE INSTITUT/ MAX MUELLER BHAVAN, Chennai. We have been in association with them for around ten years. GOETHE INSTITUT/ MAX MUELLER BHAVAN, Bangalore is also one of our exam centers. And the exam centre for TestDaF is either Chennai or Pune.</span></p>
         <p>You can review the dates and price of exams from the link below:</p>
-        <a href="<?php echo $base;?>index.php/front/#" title="read more" class="btn-inline " target="_self">Show details</a> </div>
-         <div class="col-md-4"><div class="title-box clearfix "><h2 class="title-box_primary">Germany in glance</h2></div> 
+        <a href="<?php echo $base;?>index.php/front/eamount" title="read more" class="btn-inline " target="_self">Show details</a> </div>
+         <div class="col-md-4"><div class="title-box clearfix "><h2 class="title-box_primary">Germany at glance</h2></div> 
             <figure class="frame thumbnail alignnone clearfix">
            <a href="<?php echo $base;?>assets/images/germany.jpg" class="fancybox"> <p><img class="size-full " alt="usa" src="<?php echo $base;?>assets/images/germany.jpg" width="200" height="207"></p></a>
             </figure></div>
