@@ -18,7 +18,7 @@
 					<div class="col-md-6 panel">
 						<div class="panel-body">
 							<p class="simplenav">
-								<a href="<?php echo $base;?>index.php/front">Home</a> | 
+								<a href="<?php echo $base;?>index.php/front/index">Home</a> | 
 								<a href="<?php echo $base;?>index.php/front/aboutus">About</a> |
 								<a href="<?php echo $base;?>index.php/front/achievements">Our Achievements</a> |
 								<a href="<?php echo $base;?>index.php/front/courses">Courses</a> |
